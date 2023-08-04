@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farewell Poem for Jovelyn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('animate.gif') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    
+        .poem-container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 10px goldenrod;
+            animation: fadeInUp 1s ease;
+        }
+    
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    
+        .poem {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+    
+        .signature {
+            font-style: italic;
+        }
+    
+        @keyframes heartBeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+    
+        .heart {
+            color: #e74c3c;
+            font-size: 24px;
+            animation: heartBeat 1s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="poem-container">
+        <div class="poem">
+            In the office halls, a light so bright,<br>
+            Jovelyn's laughter, a joyful sight.<br>
+            A jolly heart, a spirit free,<br>
+            In every moment, sharing glee.
+        </div>
+        <div class="poem">
+            With health and vigor, she'd embrace,<br>
+            A shining presence in this place.<br>
+            Outgoing soul, like sun's warm ray,<br>
+            Spreading cheer both night and day.
+        </div>
+        <div class="poem">
+            Now time has come for her to part,<br>
+            But memories linger, in every heart.<br>
+            Farewell, dear Jovelyn, with spirits high,<br>
+            As you spread your wings, touch the sky.
+        </div>
+        <div class="poem">
+            May your journey onward be,<br>
+            As vibrant and lively as the sea.<br>
+            Though you're leaving, remember this:<br>
+            A cherished friend, you'll always be amiss.
+        </div>
+        <div class="poem signature">
+            So here's to you, with love so true,<br>
+            Jovelyn, our co-worker, adieu.<br>
+            <span class="heart">&hearts;</span>
+        </div>
+    </div>
+</body>
+</html>

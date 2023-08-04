@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farewell Poem for Jovelyn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('animate.gif') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    
+        .poem-container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 10px goldenrod;
+            animation: fadeInUp 1s ease;
+        }
+    
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    
+        .poem {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+    
+        .signature {
+            font-style: italic;
+        }
+    
+        @keyframes heartBeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+    
+        .heart {
+            color: #e74c3c;
+            font-size: 24px;
+            animation: heartBeat 1s infinite;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #3498db;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="poem-container">
+        <div class="poem">
+            <h1>EXCITED KA BA?</h1>
+            <img src="laughing.gif" alt="smiley">
+            <h1>IT'S A PRANK!!!!</h1>
+        </div>
+        <div class="button-container">
+            <a href="index2.html" class="button">CLICK ME!</a>
+        </div>
+    </div>
+</body>
+</html>
